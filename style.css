@@ -1,0 +1,54 @@
+body {
+  background: #222;
+  color: #888;
+  font-family: 'Roboto';
+  padding: 100px;
+}
+
+.artist {
+  display: flex;
+  align-items: center;
+  color: #fafafa;
+  font-style: normal;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  gap: 16px;
+  align-self: stretch;
+  flex-grow: 1;
+  border-bottom: 1px solid #fafafa30;
+}
+
+.lg {
+  height: 112px;
+  max-width: 1200px;
+  min-width: 400px;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 40px;
+}
+
+.lg:last-child .content {
+  border-bottom: 0px;
+}
+
+.sm {
+  height: 70px;
+  max-width: 500px;
+  min-width: 200px;
+  font-size: 16px;
+  line-height: 18.75px;
+  padding-left: 25px;
+}
+
+.sm .content {
+  padding-right: 25px;
+}
+
+.song-number {
+  color: #9C9AFF;
+}
