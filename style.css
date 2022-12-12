@@ -32,7 +32,8 @@ body {
   padding-left: 40px;
 }
 
-.lg:last-child .content {
+.lg:last-child .content,
+.sm:last-child .content {
   border-bottom: 0px;
 }
 
